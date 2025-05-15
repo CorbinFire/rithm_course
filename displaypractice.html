@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<form action="displaypracticesend.html" method="post">
+<head>
+    <style>
+        
+        #table {
+            display: table;
+        }
+        .row {
+            display: table-row;
+        }
+        .cell {
+            display: table-cell;
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+    <datalist id="browsers">
+        <option value="12"></option>
+        <option value="9"></option>
+        <option value="8"></option>
+        <option value="6"></option>
+    </datalist>
+</head>
+<body>
+    <div id="table">
+        <div class="row">
+            <div class="cell"><input list="browsers" id="browsers"></div>
+            <div class="cell"><input list="browsers" id="cool"></div>
+        </div>
+        <div class="row">
+            <div class="cell"><input list="browsers" id="drawn"></div>
+            <div class="cell"><input list="browsers" id="cluck"></div>
+        </div>
+    </div>
+    <input type="submit" value="submit">
+</body>
+</form>
+</html>
